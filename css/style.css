@@ -6,6 +6,7 @@ body {
 /* Navbar */
 .navbar {
   background-color: #171717;
+  border-bottom: 1px solid #333;
 }
 
 .cart span {
@@ -38,13 +39,13 @@ body {
 
 /* Products */
 
-.products h3, .designers h3 {
+.products h3, .designers h3, .similar-products h3 {
   font-family: lora;
   color: #1B2690;
   font-weight: bold;
 }
 
-.products p, .designers p {
+.products p, .designers p, .similar-products p {
   font-weight: 200;
   color: #B7B7B7;
 }
@@ -79,4 +80,87 @@ body {
 
 .footer-text span {
   color: #171717;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  margin-top: 100px;
+}
+
+/* single product */
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-60px);
+}
+
+.product-thumbnail-container:hover {
+  text-decoration: none;
+}
+
+.btn-product {
+  margin: 50px 0;
+  border-bottom: 1px solid #EAEAEF;
+  padding-bottom: 30px;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.design-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #B7B7B7;
+}
+
+.design-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.design-by p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #171717;
+}
+
+/* product description & review */
+.product-description {
+  height: 350px;
+  background-color: #F6F7FB;
+}
+.product-description .tab-content {
+  background-color: #FFF;
+  border: 1px solid #DEE2E6;
+  border-top: 0;  
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.product-description .tab-content p {
+  font-weight: 200;
+  color: #333;
+}
+
+.product-review h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.product-review p {
+  font-size: 14px;
+}
+
+.product-review {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.similar-products {
+  margin-top: 180px;
+  margin-bottom: 100px;
 }
